@@ -24,4 +24,16 @@ class Home extends CI_Controller
     $this->load->view('home/dashboard');
     $this->load->view('templates/footer');
   }
+
+  public function transaksi()
+  {
+    $data['username'] = "Admin";
+    $data['judul'] = "Rekap Transaksi";
+
+    $this->load->view('templates/header', $data);
+    $this->load->view('templates/sidebar');
+    $this->load->view('templates/topbar');
+    $this->load->view('home/transaksi');
+    $this->load->view('templates/footer');
+  }
 }
