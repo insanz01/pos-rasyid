@@ -33,6 +33,12 @@
       <span>Transaksi</span></a>
   </li>
 
+  <li class="nav-item">
+    <a class="nav-link" href="<?= base_url('home/pengguna') ?>">
+      <i class="fas fa-fw fa-user"></i>
+      <span>Pengguna</span></a>
+  </li>
+
   <!-- Divider -->
   <hr class="sidebar-divider">
 
