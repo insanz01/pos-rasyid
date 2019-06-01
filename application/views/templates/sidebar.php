@@ -6,7 +6,7 @@
     <div class="sidebar-brand-icon rotate-n-15">
       <i class="fas fa-fw fa-laptop-code"></i>
     </div>
-    <div class="sidebar-brand-text mx-3">Kerja Praktek</div>
+    <div class="sidebar-brand-text mx-3">Kecantikan Rasyid</div>
   </a>
 
   <!-- Divider -->
